@@ -13,11 +13,11 @@ j;for(var g=0;g<n.link.length;g++){if(n.link[g].rel=="alternate"){j=n.link
 (";");if(f!=-1){c=c.substring(0,f)}postLabels[ii]=c;postTitle[ii]=e;postDate
 [ii]=m;postUrl[ii]=j;postMp3[ii]=o;if(h<10){postBaru[ii]=true}else{postBaru
 [ii]=false}ii=ii+1}}}}}b();sortBy="titleasc";sortPosts(sortBy);sortlabel
-();tocLoaded=true;displayToc2();document.write('</br><a href="http://www.posmology.com" style="font-
-size: 10px; text-decoration:none; color: #616469;">Sitemap</a>')}function 
-filterPosts(a){scroll(0,0);postFilter=a;displayToc(postFilter)}function 
-allPosts(){sortlabel();postFilter="";displayToc(postFilter)}function sortPosts
-(d){function c(e,g){var f=postTitle[e];postTitle[e]=postTitle[g];postTitle[g]
+();tocLoaded=true;displayToc2();document.write('</br><a href="http://www.posmology.com" style="font-size: 10px; text-decoration:none; color: #616469;">Sitemap</a>')}
+function filterPosts(a){scroll(0,0);postFilter=a;displayToc(postFilter)}
+function allPosts(){sortlabel();postFilter="";displayToc(postFilter)}
+function sortPosts(d)
+{function c(e,g){var f=postTitle[e];postTitle[e]=postTitle[g];postTitle[g]
 =f;var f=postDate[e];postDate[e]=postDate[g];postDate[g]=f;var f=postUrl
 [e];postUrl[e]=postUrl[g];postUrl[g]=f;var f=postLabels[e];postLabels[e]
 =postLabels[g];postLabels[g]=f;var f=postMp3[e];postMp3[e]=postMp3[g];postMp3
